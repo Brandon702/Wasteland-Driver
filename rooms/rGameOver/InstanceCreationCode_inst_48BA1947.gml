@@ -8,6 +8,6 @@ text = "Restart Game";
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6E320488
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "8"
 /// @DnDArgument : "var" "action"
-action = 3;
+action = 8;

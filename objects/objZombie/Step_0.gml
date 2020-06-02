@@ -89,24 +89,18 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 340E20DC
 	/// @DnDParent : 5A56B724
-	/// @DnDArgument : "code" "if (rotate = 1)$(13_10){$(13_10)	$(13_10)	//mp_potential_settings(90, 75, 60, 0);$(13_10)	if (distance_to_object(objPlayer) < 100)$(13_10)	{$(13_10)			mp_potential_step(objPlayer.x,objPlayer.y,0.8,0);$(13_10)			image_angle = direction-90;$(13_10)	$(13_10)	/*$(13_10)		var zombiePath = path_add();$(13_10)	mp_potential_path(zombiePath,objPlayer.x,objPlayer.y, 0.8,3, false);$(13_10)	path_start(zombiePath,0.8,path_action_stop,true);$(13_10)	image_angle = direction-90;$(13_10)	*/$(13_10)	}$(13_10)}"
+	/// @DnDArgument : "code" "if (rotate = 1)$(13_10){$(13_10)	$(13_10)	//mp_potential_settings(90, 75, 60, 0);$(13_10)$(13_10)	if (distance_to_object(objPlayer) < 100)$(13_10)	{$(13_10)			mp_potential_step(objPlayer.x,objPlayer.y,0.8,0);$(13_10)	}$(13_10)	image_angle = direction-90;$(13_10)}"
 	if (rotate = 1)
 	{
 		
 		//mp_potential_settings(90, 75, 60, 0);
+	
 		if (distance_to_object(objPlayer) < 100)
 		{
 				mp_potential_step(objPlayer.x,objPlayer.y,0.8,0);
-				image_angle = direction-90;
-		
-		/*
-			var zombiePath = path_add();
-		mp_potential_path(zombiePath,objPlayer.x,objPlayer.y, 0.8,3, false);
-		path_start(zombiePath,0.8,path_action_stop,true);
-		image_angle = direction-90;
-		*/
 		}
-	}/**/
+		image_angle = direction-90;
+	}
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1

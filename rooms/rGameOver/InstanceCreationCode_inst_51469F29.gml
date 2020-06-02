@@ -8,6 +8,6 @@ text = "Exit to menu";
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6E320488
-/// @DnDArgument : "expr" "6"
+/// @DnDArgument : "expr" "9"
 /// @DnDArgument : "var" "action"
-action = 6;
+action = 9;
