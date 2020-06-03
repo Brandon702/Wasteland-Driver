@@ -16,3 +16,11 @@ speed = 12;
 /// @DnDHash : 0384745B
 /// @DnDArgument : "angle" "point_direction(x,y,mouse_x,mouse_y)+90"
 image_angle = point_direction(x,y,mouse_x,mouse_y)+90;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 39E9235C
+/// @DnDArgument : "xscale" "3/4"
+/// @DnDArgument : "yscale" "3/4"
+image_xscale = 3/4;
+image_yscale = 3/4;

@@ -77,8 +77,14 @@ if(room !=rHelp)
 				/// @DnDVersion : 1
 				/// @DnDHash : 00D9F5FE
 				/// @DnDParent : 71115A51
-				/// @DnDArgument : "code" "objPause.pause=0;$(13_10)if (objPause.currentRoom=0)$(13_10){$(13_10)	room=rRoom0;$(13_10)}$(13_10)else if (objPause.currentRoom=1)$(13_10){$(13_10)	room=rRoom1;$(13_10)}$(13_10)else if (objPause.currentRoom=2)$(13_10){$(13_10)	room=rRoom2;$(13_10)}$(13_10)else if (objPause.currentRoom=3)$(13_10){$(13_10)	room=rRoom3;$(13_10)}$(13_10)else if (objPause.currentRoom=4)$(13_10){$(13_10)	room=rRoom4;$(13_10)}$(13_10)else if (objPause.currentRoom=5)$(13_10){$(13_10)	room=rRoom5;$(13_10)}$(13_10)else if (objPause.currentRoom=6)$(13_10){$(13_10)	room=rRoom6;$(13_10)}$(13_10)else if (objPause.currentRoom=7)$(13_10){$(13_10)	room=rDevRoom;$(13_10)}$(13_10)else$(13_10){$(13_10)	room=rMainMenu;$(13_10)	objPause.currentRoom=999;$(13_10)}"
+				/// @DnDArgument : "code" "objPause.pause=0;$(13_10)/*$(13_10)if (objPause.currentRoom=8)$(13_10){$(13_10)objPause.currentRoom=0;	$(13_10)}$(13_10)*/$(13_10)if (objPause.currentRoom=0)$(13_10){$(13_10)	room=rRoom0;$(13_10)}$(13_10)else if (objPause.currentRoom=1)$(13_10){$(13_10)	room=rRoom1;$(13_10)}$(13_10)else if (objPause.currentRoom=2)$(13_10){$(13_10)	room=rRoom2;$(13_10)}$(13_10)else if (objPause.currentRoom=3)$(13_10){$(13_10)	room=rRoom3;$(13_10)}$(13_10)else if (objPause.currentRoom=4)$(13_10){$(13_10)	room=rRoom4;$(13_10)}$(13_10)else if (objPause.currentRoom=5)$(13_10){$(13_10)	room=rRoom5;$(13_10)}$(13_10)else if (objPause.currentRoom=6)$(13_10){$(13_10)	room=rRoom6;$(13_10)}$(13_10)else if (objPause.currentRoom=7)$(13_10){$(13_10)	room=rDevRoom;$(13_10)}"
 				objPause.pause=0;
+				/*
+				if (objPause.currentRoom=8)
+				{
+				objPause.currentRoom=0;	
+				}
+				*/
 				if (objPause.currentRoom=0)
 				{
 					room=rRoom0;
@@ -110,12 +116,7 @@ if(room !=rHelp)
 				else if (objPause.currentRoom=7)
 				{
 					room=rDevRoom;
-				}
-				else
-				{
-					room=rMainMenu;
-					objPause.currentRoom=999;
-				}
+				}/**/
 			}
 		}
 	}
