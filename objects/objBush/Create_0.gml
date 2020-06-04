@@ -12,3 +12,10 @@ done = 0;
 /// @DnDArgument : "yscale" "1/2"
 image_xscale = 1/2;
 image_yscale = 1/2;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 61DA9876
+/// @DnDArgument : "expr" "-2"
+/// @DnDArgument : "var" "depth"
+depth = -2;
