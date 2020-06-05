@@ -39,3 +39,15 @@ death = 1;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "on"
 on = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 19759BA8
+/// @DnDArgument : "var" "wandering"
+wandering = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 35B0C4D9
+/// @DnDArgument : "var" "moving"
+moving = 0;

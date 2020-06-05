@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "0f278740-3f71-460c-9f19-c39207ac4687",
+            "Value": {
+                "id": "88c92478-2810-4d98-bfdd-0dec8f200298",
+                "resourcePath": "sounds\\sUpgradeSound\\sUpgradeSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1037ab5b-7424-4e38-8ac8-f25b2e71b047",
             "Value": {
                 "id": "ca17fa98-acd9-432d-b9cd-7139eece9a9b",
@@ -468,6 +476,14 @@
                 "id": "e82a64a3-064d-44ea-8140-93bd4090309c",
                 "resourcePath": "objects\\objLevel2\\objLevel2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2c4718eb-829e-4149-8760-aa7c98907e51",
+            "Value": {
+                "id": "fbd17b77-dc44-4bf8-9eb2-2c322e91c2de",
+                "resourcePath": "sprites\\sLowWater\\sLowWater.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -923,6 +939,14 @@
             "Value": {
                 "id": "1bb2b66d-43d5-410f-9ae5-992e61e2f51a",
                 "resourcePath": "sprites\\sBush2\\sBush2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5220957c-2570-463c-879a-44e4a07bb3f6",
+            "Value": {
+                "id": "8a67ecb6-1165-4433-b35d-3d6ff6d69beb",
+                "resourcePath": "sprites\\sLowFood\\sLowFood.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1415,6 +1439,14 @@
             }
         },
         {
+            "Key": "9349a410-814b-48da-922c-4f04af9a31a6",
+            "Value": {
+                "id": "6c21d971-34b4-4c28-afb8-dd26f9137dfd",
+                "resourcePath": "sprites\\sLowWaterTransparency\\sLowWaterTransparency.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94d3a98e-1295-4de6-8680-317a048e003c",
             "Value": {
                 "id": "e9a5ed64-d2db-4036-910c-5a41240c7099",
@@ -1651,6 +1683,14 @@
             "Value": {
                 "id": "fee7b9f8-f944-4766-a9cd-150de48a8927",
                 "resourcePath": "sprites\\sGrass3\\sGrass3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "abba7375-f22b-4c89-9751-39cd5c33a2f0",
+            "Value": {
+                "id": "de2741a3-f42b-4b98-abd1-731efbd4e873",
+                "resourcePath": "sprites\\sLowFoodTransparency\\sLowFoodTransparency.yy",
                 "resourceType": "GMSprite"
             }
         },
