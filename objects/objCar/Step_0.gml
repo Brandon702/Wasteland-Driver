@@ -81,7 +81,7 @@ if(y >= room_height-200)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 26533474
-/// @DnDArgument : "code" "	if (speed = 0)$(13_10)	{$(13_10)		audio_stop_sound(sCar);$(13_10)	}$(13_10)//Custom Solid Collision$(13_10)if (place_meeting(x+hspeed,y,objWoodWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWall90d)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall90d)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objGlass1)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objGlass1)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objGlass2)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objGlass2)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objTree)) hspeed=0.2;$(13_10)if (place_meeting(x,y+vspeed,objTree)) vspeed=0.2;$(13_10)if (place_meeting(x+hspeed,y,objBush)) hspeed=0.2;$(13_10)if (place_meeting(x,y+vspeed,objBush)) vspeed=0.2;$(13_10)if (place_meeting(x+hspeed,y,objDeadTree)) hspeed=0.2;$(13_10)if (place_meeting(x,y+vspeed,objDeadTree)) vspeed=0.2;$(13_10)if (place_meeting(x+hspeed,y,objPetalBike)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objPetalBike)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objMotorcycle)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objMotorcycle)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objCar)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objCar)) vspeed=0;"
+/// @DnDArgument : "code" "	if (speed = 0)$(13_10)	{$(13_10)		audio_stop_sound(sCar);$(13_10)	}$(13_10)//Custom Solid Collision$(13_10)if (place_meeting(x+hspeed,y,objWoodWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWall90d)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall90d)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objGlass1)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objGlass1)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objGlass2)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objGlass2)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objTree)) hspeed=-1;$(13_10)if (place_meeting(x,y+vspeed,objTree)) vspeed=-1;$(13_10)if (place_meeting(x+hspeed,y,objBush)) hspeed=-1;$(13_10)if (place_meeting(x,y+vspeed,objBush)) vspeed=-1;$(13_10)if (place_meeting(x+hspeed,y,objDeadTree)) hspeed=-1;$(13_10)if (place_meeting(x,y+vspeed,objDeadTree)) vspeed=-1;$(13_10)if (place_meeting(x+hspeed,y,objPetalBike)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objPetalBike)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objMotorcycle)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objMotorcycle)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objCar)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objCar)) vspeed=0;"
 	if (speed = 0)
 	{
 		audio_stop_sound(sCar);
@@ -105,12 +105,12 @@ if (place_meeting(x+hspeed,y,objGlass1)) hspeed=0;
 if (place_meeting(x,y+vspeed,objGlass1)) vspeed=0;
 if (place_meeting(x+hspeed,y,objGlass2)) hspeed=0;
 if (place_meeting(x,y+vspeed,objGlass2)) vspeed=0;
-if (place_meeting(x+hspeed,y,objTree)) hspeed=0.2;
-if (place_meeting(x,y+vspeed,objTree)) vspeed=0.2;
-if (place_meeting(x+hspeed,y,objBush)) hspeed=0.2;
-if (place_meeting(x,y+vspeed,objBush)) vspeed=0.2;
-if (place_meeting(x+hspeed,y,objDeadTree)) hspeed=0.2;
-if (place_meeting(x,y+vspeed,objDeadTree)) vspeed=0.2;
+if (place_meeting(x+hspeed,y,objTree)) hspeed=-1;
+if (place_meeting(x,y+vspeed,objTree)) vspeed=-1;
+if (place_meeting(x+hspeed,y,objBush)) hspeed=-1;
+if (place_meeting(x,y+vspeed,objBush)) vspeed=-1;
+if (place_meeting(x+hspeed,y,objDeadTree)) hspeed=-1;
+if (place_meeting(x,y+vspeed,objDeadTree)) vspeed=-1;
 if (place_meeting(x+hspeed,y,objPetalBike)) hspeed=0;
 if (place_meeting(x,y+vspeed,objPetalBike)) vspeed=0;
 if (place_meeting(x+hspeed,y,objMotorcycle)) hspeed=0;

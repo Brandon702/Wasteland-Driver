@@ -1823,6 +1823,22 @@
             }
         },
         {
+            "Key": "bf036f76-3adc-41f4-b526-bbeb814fe86c",
+            "Value": {
+                "id": "f01ee61b-8e4a-4404-aca9-de2803cd5286",
+                "resourcePath": "sprites\\sLowHp\\sLowHp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bfde505a-f242-4150-9e12-1553bd998238",
+            "Value": {
+                "id": "90555d2d-d662-47b9-9fea-53bf301d53c9",
+                "resourcePath": "sprites\\sPickupValue\\sPickupValue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0f74c89-16a4-413c-902e-e2ffba884cc3",
             "Value": {
                 "id": "acbab070-d98f-4c9e-a30e-a44edd5a73be",

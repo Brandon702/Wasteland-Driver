@@ -163,3 +163,28 @@ weapon = 0;
 /// @DnDHash : 38232BCE
 /// @DnDArgument : "var" "cannonAmmo"
 cannonAmmo = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 03603CEC
+/// @DnDArgument : "var" "processing"
+processing = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6090BA1B
+/// @DnDArgument : "var" "processing2"
+processing2 = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 780C144F
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "decay"
+decay = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5E940764
+/// @DnDArgument : "var" "pickupValue"
+pickupValue = 0;
