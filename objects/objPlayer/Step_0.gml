@@ -213,8 +213,8 @@ if(weaponSelected = 2)
 			/// @DnDHash : 41D54084
 			/// @DnDParent : 2A411C6B
 			/// @DnDArgument : "steps" "room_speed * 0.07"
-			/// @DnDArgument : "alarm" "3"
-			alarm_set(3, room_speed * 0.07);
+			/// @DnDArgument : "alarm" "5"
+			alarm_set(5, room_speed * 0.07);
 		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1

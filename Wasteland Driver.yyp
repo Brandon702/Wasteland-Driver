@@ -1015,14 +1015,6 @@
             }
         },
         {
-            "Key": "5f8ce552-3acf-45ec-9087-a39484197eec",
-            "Value": {
-                "id": "86bf9f60-05d1-456e-833c-a1b527a0ab32",
-                "resourcePath": "objects\\objMute\\objMute.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6091cff8-cf86-4de0-83be-cc485c7602c6",
             "Value": {
                 "id": "cbb23a7f-a384-490f-a329-276f0baf36c2",
